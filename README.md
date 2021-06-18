@@ -88,8 +88,14 @@ You can launch the project scenario like this:
 ```sh
 $ roslaunch pr2_robot pick_place_project.launch
 ```
+
+![Project-1](Images/3.png)
+
 Launch the python script(in a new terminal) to excecute object recognition:
 ```sh
 $ source ~/catkin_ws/devel/setup.bash
+$ cd ~/catkin_ws/src/RoboND-Perception-Project/pr2_robot/scripts
 $ rosrun pr2_robot project_template.py
 ```
+
+![Project-1](Images/4.png)

@@ -23,10 +23,11 @@ Now that you have a workspace, clone or download this repo into the src director
 ```sh
 $ cd ~/catkin_ws/src
 ```
-Install git (Skip if already installed)
+Install git (Skip if already installed):
 ```sh
 $ sudo apt install git
 ```
+Clone the repo:
 ```sh
 $ git clone https://github.com/YashKSahu/3D-Perception.git
 ```
@@ -72,8 +73,6 @@ Once Gazebo is up and running, make sure you see following in the gazebo world:
 - Dropboxes on either sides of the robot
 
 
-If any of these items are missing, please report as an issue on [the waffle board](https://waffle.io/udacity/robotics-nanodegree-issues).
-
 In your RViz window, you should see the robot and a partial collision map displayed:
 
 ![demo-2](Images/2.png)
@@ -84,6 +83,7 @@ The demo ends when the robot has successfully picked and placed all objects into
 
 Close all active terminal windows using **ctrl+c** before restarting the demo.
 
+# Object Recognition (Perception Pipeline)
 You can launch the project scenario like this:
 ```sh
 $ roslaunch pr2_robot pick_place_project.launch

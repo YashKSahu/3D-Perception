@@ -70,7 +70,7 @@ If any of these items are missing, please report as an issue on [the waffle boar
 
 In your RViz window, you should see the robot and a partial collision map displayed:
 
-![demo-2](https://user-images.githubusercontent.com/20687560/28748286-9f65680e-7468-11e7-83dc-f1a32380b89c.png)
+![demo-2](Images/2.png)
 
 Proceed through the demo by pressing the ‘Next’ button on the RViz window when a prompt appears in your active terminal
 

@@ -99,3 +99,5 @@ $ rosrun pr2_robot project_template.py
 ```
 
 ![Project-1](Images/4.png)
+
+Note: The robot is a bit moody at times and might leave objects on the table or fling them across the room :D

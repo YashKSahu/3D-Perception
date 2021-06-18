@@ -88,3 +88,8 @@ You can launch the project scenario like this:
 ```sh
 $ roslaunch pr2_robot pick_place_project.launch
 ```
+Launch the python script(in a new terminal) to excecute object recognition:
+```sh
+$ source ~/catkin_ws/devel/setup.bash
+$ rosrun pr2_robot project_template.py
+```
